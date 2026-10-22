@@ -1,6 +1,6 @@
 # Prevent JSON output from overwriting VEC input data
 
-**Contribution by Yichen (Eason) Guo / Eason_hk.** Developed with Codex assistance.
+**Contribution by Yichen (Eason) Guo / Eason_hk.**
 
 This is a small patch to the official `veckit` local scorer. It prevents an output-path
 mistake from destroying a prediction, target, reference or wild-type H5AD file. It is
